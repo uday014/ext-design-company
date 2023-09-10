@@ -144,6 +144,28 @@
   padding: 50px 50px;
 }
 
+.icon {
+  margin-left: 50px;
+}
+
+.final {
+  margin-left: 30px;
+}
+
+.cover {
+  background-image: url(https://ld-wp73.template-help.com/wordpress/prod_14993/v3/wp-content/uploads/2018/01/architect-gallery17.jpg);
+  height: 600px;
+  width: 100%;
+}
+
+.cover-dark {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 600px;
+  width: 100%;
+
+  z-index: 1;
+}
+
 @media screen and (max-width: 1099px) {
   .intro {
     margin-top: 100px;
@@ -169,6 +191,28 @@
 }
 
 @media screen and (max-width: 800px) {
+  .cover {
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_14993/v3/wp-content/uploads/2019/08/architect-img2.jpg);
+
+    /* height: 550px;
+    width: 400px; */
+  }
+  .cover-dark {
+    height: 600px;
+  }
+  .cont {
+    margin-top: -400px;
+  }
+  .items {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .final {
+    margin-left: 0px;
+  }
+  .icon {
+    margin-left: 30px;
+  }
   .project {
     grid-template-columns: repeat(1, 1fr);
   }
