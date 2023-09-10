@@ -135,6 +135,15 @@
   margin-right: 15px;
 }
 
+.map {
+  padding: 70px 20px 20px 20px;
+  margin-left: 5%;
+}
+
+.down {
+  padding: 50px 50px;
+}
+
 @media screen and (max-width: 1099px) {
   .intro {
     margin-top: 100px;
@@ -165,5 +174,24 @@
   }
   .service {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .map {
+    padding: 50px 60px 20px 10px;
+    margin-left: 0;
+  }
+  .proj h6 {
+    padding: 0 7%;
+  }
+  .inner-card {
+    padding: 30px 30px;
+  }
+  .inner-service {
+    padding: 20px 8px;
+  }
+  .down {
+    padding: 50px 20px;
+  }
+  .home-cards {
+    margin: 30px 20px;
   }
 }
